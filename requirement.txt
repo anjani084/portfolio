@@ -12,7 +12,6 @@ fasteners==0.14.1
 Flask==2.3.2
 future==0.18.2
 httplib2==0.20.2
-idna==3.3
 importlib-metadata==4.6.4
 itsdangerous==2.1.2
 jeepney==0.7.1
