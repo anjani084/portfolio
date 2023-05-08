@@ -1,6 +1,6 @@
 {
   "builds": [
-    { "src": "server.py", "use": "@vercel/python3.6" }
+    { "src": "server.py", "use": "@vercel/python3.8" }
   ],
   "routes": [
     {
