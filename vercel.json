@@ -2,10 +2,10 @@
   "builds": [
     {
       "use": "@vercel/python",
-      "entrypoint": "python app.py",
+      "entrypoint": "python server.py",
       "config": {
         "python": "python3.10",
-        "buildCommand": "source /path/to/your/virtual/environment/bin/activate && pip install -r requirements.txt && python app.py"
+        "buildCommand": "source bin/activate && pip install -r requirement.txt && python server.py"
       }
     }],
   "routes": [{ "src": "/(.*)", "dest": "/server.py" }]
