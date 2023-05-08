@@ -1,5 +1,4 @@
 { 
-  "start": "pip install -r requirement.txt && python3.11 server.py",
   "version": 2,
   "builds": [
     { "src": "server.py", "use": "@vercel/python" }
