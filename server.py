@@ -29,3 +29,8 @@ def submit_form():
             return 'Did not saved to Database'
     else:
         return 'something went wrong. Try again!'
+
+@app.after_request
+def set_content_type(response):
+    response.headers['Content-Type'] = 'text/html'
+    return response
